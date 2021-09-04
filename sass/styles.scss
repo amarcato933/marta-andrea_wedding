@@ -749,7 +749,7 @@ Embed video
 Google map
 ========================================================================== */
 #map-canvas {
-  height: 500px;
+  height: 440px;
   width: 100%;
 }
 #map-content-wrapper {
@@ -758,8 +758,8 @@ Google map
   margin-bottom: 150px;
 }
 #map-content {
-  margin-top: 40px;
-  padding: 50px 60px;
+  margin-top: 0px;
+  padding: 34px 52px;
   background: #fff;
   -webkit-transition: opacity 0.5s, visibility 0.6s, margin-top 0.5s;
   transition: opacity 0.5s, visibility 0.6s, margin-top 0.5s;
