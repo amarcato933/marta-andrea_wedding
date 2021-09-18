@@ -31,13 +31,13 @@
 }
 .btn-fill {
 	color: $white-color;
-	border: solid 2px #FFD700;
+	border: solid 2px #DFC469;
 	-moz-border-radius: 40px;
 	-webkit-border-radius: 40px;
 	border-radius: 40px;
 	display: inline-block;
 	text-transform: uppercase;
-	background-color: #FFD700;
+	background-color: #DFC469;
 }
 .btn-fill:hover, .btn-fill:focus {
 	color: $white-color;
@@ -50,6 +50,7 @@
 }
 .btn-large {
 	padding: 15px 40px;
+	margin-bottom: 40px;
 }
 .btn-margin-right {
 	margin-right: 20px;
