@@ -10,7 +10,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <title>Marta e Andrea si sposano!</title>
+    <title>Ezio ed Elisa si sposano!</title>
     <meta name="description" content="Vorremmo che tu fossi con noi, nel giorno del nostro matrimonio.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#ffffff">
@@ -22,30 +22,34 @@
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/flexslider.css">
     <link rel="stylesheet" href="css/styles.min.css">
     <link rel="stylesheet" href="css/queries.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.countdown.css" />
     <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/jquery.countdown.js"></script>
+
 </head>
 <body id="top">
 <section class="hero">
     <section class="navigation">
         <header>
             <div class="header-content">
-                <div class="logo"><a href="#"><img src="img/swirly-smallOKOK.png" style="height: 25px"></a></div>
+                <div class="logo"><a href="#"><img src="img/swirly-home.png" style="height: 25px"></a></div>
                 <div class="header-nav">
                     <nav>
                         <ul class="primary-nav">
-                            <li><a href="#intro">Primo incontro!</a></li>
-                            <li><a href="#events">Il giorno dei giorni</a></li>
+                            <li><a href="#intro">Home</a></li>
+                            <li><a href="#events">Quando e dove?</a></li>
                             <li><a href="#instagram">Instagram</a></li>
-                            <li><a href="#eng-pics">Un po' di noi</a></li>
-                            <li class="hidden-sm hidden-xs"><a href="#video-bg">Terra nostra ...</a></li>
+                            <li><a href="#eng-pics">Images</a></li>
+                            <li class="hidden-sm hidden-xs"><a href="#video-bg">Contatti</a></li>
                         </ul>
                         <ul class="member-actions">
-                            <li><a href="#map" class="login">Location</a></li>
                             <li><a href="#rsvp" class="btn-white btn-small">Segna sul calendario la data! :)</a></li>
                         </ul>
                     </nav>
@@ -60,7 +64,7 @@
         <div class="row">
             <div class="col-md-10 col-md-offset-1">
                 <div class="hero-content text-center">
-                    <img src="img/swirly-goldOKOK.png"> 
+                    <img src="img/swirly-home.png"> 
                     <!--<a href="#" class="btn btn-fill btn-large btn-margin-right">Scroll Down</a> -->
                 </div>
             </div>
@@ -80,11 +84,10 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
-                <h3>Ci sposiamo!</h3>
+                <h3>Il nostro giorno è finalmente arrivato!</h3>
                 <audio src="img/music/ennio_morricone.mp3" autoplay="true" loop="true" controls></audio>              
-                <h3  style="box-shadow: inset 0 0 120px #000, inset 0 0 80px #000, inset 0 0 40px #000; color: #0ABAB5;">SOUND ON!</h3>
-                <br>
-                <p>Il giorno del matrimonio è il 20 di Dicembre e vorremmo che tu ne facessi parte!
+                <br><br>
+                <p>5 Giugno 2023!
                 </p>
             </div>
             <!-- 
@@ -94,23 +97,46 @@
                 <table width="100%" cellspacing="0" cellpadding="0"><tbody><tr><td align="center"><img src="https://counters.pennyblacktemplates.com/id/8692f2174d" alt="Pennyblack Email Countdown Timers" border="0"/></td></tr></tbody></table>
             -->
                 
-                <img src="img/eng_pics/new-logo1text1.jpg" style="display: block;margin-left:auto;margin-right: auto; width:370px"/>
+                <img src="img/logo alloro3-ok.png" style="display: block;margin-left:auto;margin-right: auto; width:370px"/>
                 
                 <div class="col-md-12 text-center" style="margin-bottom: -20px;">
                     <h3 class="header">Countdown al nostro matrimonio!</h3>
                 </div>
-                <table width="100%" cellspacing="0" cellpadding="0">
-                    <tbody>
-                            <td align="center"><img src="http://i.countdownmail.com/18irx8.gif" style="display:inline-block!important;padding-top: 20px;width:90%!important;max-width:600px!important;" border="0"/>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            
-            <!--
-                <div style="height: 0; padding-bottom: calc(25.33%); position:relative; width: 100%;"><iframe allow="autoplay; gyroscope;" allowfullscreen height="100%" referrerpolicy="strict-origin" src="https://www.kapwing.com/e/61377b975782c300297db9fe" style="border:0; height:100%; left:0; overflow:hidden; position:absolute; top:0; width:100%" title="Embedded content made on Kapwing" width="80%"></iframe></div><p style="font-size: 12px; text-align: right;"><a href="https://www.kapwing.com/" target="_blank" rel="noopener noreferrer"></a></p>       
-                </div>
-            -->    
+        <!-- Start Countdown -->       
+          <!-- Start Countdown -->       
+          <div>
+            <ul id="countdown" >
+              <li><span class="days">00</span><p class="days_text">Giorni</p></li>
+              <li class="separator">:</li>
+              <li><span class="hours">00</span><p class="hours_text">Ore</p></li>
+              <li class="separator">:</li>
+              <li><span class="minutes">00</span><p class="minutes_text">Minuti</p></li>
+              <li class="separator">:</li>
+              <li><span class="seconds">00</span><p class="seconds_text">Secondi</p></li>
+            </ul>
+            <div class="spasi">
+            </div>
+            <script type="text/javascript">
+              var now = new Date();
+              var day = now.getDate();
+              var month = now.getMonth() + 1;
+              var year = now.getFullYear() + 1;
+          
+              var nextyear = month + '/' + day + '/' + year + ' 07:07:07';
+              var dataora = '06/05/2023 10:30:00';
+
+              $('#countdown').countdown({
+                date: dataora, // TODO Date format: 07/27/2017 17:00:00
+                offset: +2, // TODO Your Timezone Offset
+                day: 'Giorni',
+                days: 'Giorni'
+              }, function () {
+                alert('Ci sposiamo!');
+              });
+            </script>  
+          </div>
+          <!-- End Countdown -->
+        </div>
     </div>
 </section>
 
@@ -118,61 +144,71 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
-                <h3 class="header">Primo incontro!</h3>
+                <h3 class="header">Home</h3>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-3 hidden-sm hidden-xs"><img src="img/left.png" class="wp1"></div>
+            <div class="col-md-3 hidden-sm hidden-xs"><img src="img/FotoEzioElisa/left.jpg"  style="padding-top: 20px;" class="wp1"></div>
             <div class="col-md-6">
                 <p>
-                    Tanto tempo fa... nel lontano 2012 eravamo a Praga, eh si. Un tarantino ed una leccese a Praga.
-                    Tra la tanta gente che abbiamo conosciuto, c'era anche questo gruppo di ragazze di una scuola leccese, Galatina!
-                    Bene, tra le 7/8 ragazze presenti [io ero per le scale, (appena uscito da una spa come i veri vip) la compagnìa leccese, invece, sul piano], parlammo, facemmo battute in entrambi i dialetti... Ma l'unica persona che mi guardava (per una buona mezzoretta), e mi sorrideva ininterrottamente senza dire una parola, era Marta. Non disse una parola! Ci credete, proprio Marta la chiacchierona?<br> <strong>Marta</strong>... si, qualche settimane dopo, (quando lei, dopo poche telefonate, prese una scheda con chiamate infinite verso UN numero... il mio) decisi che quel nome lo avrei voluto pronunciare ogni giorno.<br>
+                    RACCONTO ? RACCONTO ?RACCONTO ?RACCONTO ?RACCONTO ?RACCONTO ?RACCONTO ?RACCONTO ?RACCONTO ?RACCONTO ?RACCONTO ?RACCONTO ?RACCONTO ?RACCONTO ?RACCONTO ?RACCONTO ?RACCONTO ?RACCONTO ?RACCONTO ?RACCONTO ?RACCONTO ?RACCONTO ?RACCONTO ?
                 </p>
             </div>
-            <div class="col-md-3 hidden-sm hidden-xs"><img src="img/right.jpg"  class="wp2">
+            <div class="col-md-3 hidden-sm hidden-xs"><img src="img/FotoEzioElisa/right.jpeg"  class="wp2">
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-4 col-sm-push-2 col-xs-6 hidden-md hidden-lg"><img src="img/left.png" class="wp8"></div>
-            <div class="col-sm-4 col-sm-push-2 col-xs-6 hidden-md hidden-lg"><img src="img/right.jpg" class="wp9"></div>
+            <div class="col-sm-4 col-sm-push-2 col-xs-6 hidden-md hidden-lg"><img src="img/FotoEzioElisa/left.jpg" style="padding-top: 20px;" class="wp8"></div>
+            <div class="col-sm-4 col-sm-push-2 col-xs-6 hidden-md hidden-lg"><img src="img/FotoEzioElisa/right.jpeg" class="wp9"></div>
         </div>
     </div>
 </section>
 
-<section class="events section-padding" id="events" style="background-image: linear-gradient( #FFFFFF 0%, #0ABAB5 120%)">
+<section class="events section-padding" id="events" style="background-image: linear-gradient( #FFFFFF 0%, #ecb1a8 120%)">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h3 class="header">Il giorno dei giorni</h3>
+                <h3 class="header">Quando e dove?</h3>
             </div>
         </div>
         <div class="row">
             <div class="col-md-6 col-sm-12 col-xs-12 leftcol">
                 <div class="wp3">
-                    <p><strong>20 Dicembre mattina</strong></p>
+                    <p><strong>Lunedì 5 Giugno 2023</strong></p>
 
-                    <h5>Celebrazione in chiesa <span class="time">10:30</span></h5>
-                    <a href="https://it.wikipedia.org/wiki/Chiesa_dei_Santi_Pietro_e_Paolo_(Galatina)" style="color: #5151fb;"><strong><b>Chiesa Madre dei Santi Pietro e Paolo</b></strong>
+                    <h5><strong>Cerimonia in chiesa</strong><span class="time"><strong>    10:30</strong></span></h5>
+                    <a href="https://www.diocesi.re.it/vicariati/vicariato-iii-valle-del-secchia/unita-pastorale-15-pieve-di-scandiano/parrocchia-della-nativita-della-b-v-m/chiesa-parrocchiale-nativita-della-beata-vergine-maria-chiesa-grande/" style="color: #69C1C5;"><strong><b>Chiesa Grande Scandiano</b></strong>
                     </a>
                     <br><br>
                     <p>
-                        E' il momento più importante del matrimonio. Lo abbiamo tanto atteso, e dopo tanti anni lontani, mille difficoltà e tanti sacrifici, ce l'abbiamo fatta.
+                        E' il momento più importante del matrimonio. .......
                     </p>
+
+                    <form action="https://goo.gl/maps/UZUD3FiLAYuhqoYD7"
+                        >
+                            <input class="btn btn-accent btn-small" type="submit" class="fa fa-map-marker" value="Chiesa Grande" style="font-weight:bold";/>
+                        </form>  
+
+      
                 </div>
             </div>
             <div class="col-md-6 col-sm-12 col-xs-12 rightcol">
                 <div class="wp4">
-                    <p><strong>20 Dicembre pranzo</strong></p>
+                    <p><strong>Lunedì 5 Giugno 2023</strong></p>
 
-                    <h5>Ristorante <span class="time">13:00</span></h5>
-                    <a href="https://www.villavergine.it/" style="color: #5151fb;"><strong><b>Villa Vergine</b></strong></a>
+                    <h5><strong>Pranzo in location</strong><span class="time"><strong>     13:00</strong></span></h5>
+                    <a href="https://www.cortedelmulino.com/it/" style="color: #69C1C5;"><strong><b>Corte del Mulino</b></strong></a>
                     <br><br>
                     <p>
-                        Poco da dire, ci auguriamo che sia una giornata che ci unisca, tutti... quantomeno in famiglia.
-                        Che ci faccia divertire, e che sia... indimenticabile!
-                        <p style="font-size: 12px;">
-                            <i>Per <b>intolleranze o preferenze</b> durante il pranzo, preghiamo di comunicarcelo via <a href="#map" style="color: #5151fb" class="login"  ><b> WHATSAPP</b></a>
+                        Poco da dire, ci auguriamo che sia una giornata che ci unisca, tutti..........
+                        
+                        <form action="https://goo.gl/maps/mSBx14fja5aH3wJM6"
+                        >
+                            <input class="btn btn-accent btn-small" type="submit" class="fa fa-map-marker" value="Corte del Mulino" style="font-weight:bold"/>
+                        </form>
+
+                        <br><br><p style="font-size: 12px;">
+                            <i>Per <b>intolleranze o preferenze</b> durante il pranzo, preghiamo di comunicarcelo via <a href="#map" style="color: #69C1C5" class="login"  ><b> WHATSAPP</b></a>
                             </i>
                         </p>
                     </p>
@@ -182,7 +218,7 @@
         <div class="row section-padding">
             <div class="col-md-4 col-md-offset-4 text-center">
                 <a class="btn btn-accent btn-small"  data-toggle="modal" data-target="#dc-modal">
-                    <i class="fa fa-barcode"></i>&nbsp;&nbsp;<b>Click se hai già fame</b>
+                    <i class="fa fa-barcode"></i>&nbsp;&nbsp;<b>Indicazioni parcheggio location</b>
                 </a>
             </div>
         </div>
@@ -225,12 +261,12 @@
                 <p>Wedshoot mette a disposizione un album dove ognuno di noi potrà caricare le foto che verranno fatte il 20 Dicembre. Scaricate l'applicazione ed inserite il codice album, riusciremo ad avere qualche ricordo in più di quel giorno &#128522; <u style="font-size: 18px;"><br>Codice dell'album</u>: <strong style="font-size: 20px;"> ITaf14ce86</strong>
                 </p>
                 <div>
-                    <a href="https://play.google.com/store/apps/details?id=net.bodas.android.wedshoots" style="color: #5151fb;"><strong><b>Download per Android</b></strong>
+                    <a href="https://play.google.com/store/apps/details?id=net.bodas.android.wedshoots" style="color: #69C1C5;"><strong><b>Download per test</b></strong>
                     </a>
                 </div>
                 <br>
                 <div>
-                    <a href="https://apps.apple.com/it/app/wedshoots/id660256196" style="color: #5151fb;"><strong><b>Download per Apple</b></strong>
+                    <a href="https://apps.apple.com/it/app/wedshoots/id660256196" style="color: #69C1C5;"><strong><b>Download per Apple</b></strong>
                     </a>
                 </div>
         </div>
@@ -241,7 +277,7 @@
                 <a href="https://play.google.com/store/apps/details?id=net.bodas.android.wedshoots"><img src="img/wedshoot_OK.jpg" style="width: 100%; vertical-align: middle; border: 0; box-sizing: border-box;"
                     alt="wedshoot pic">
                 -->
-                <a><img src="img/wedshoot_OK.jpg" style="width: 100%; vertical-align: middle; border: 0; box-sizing: border-box;"
+                <a><img src="" style="width: 100%; vertical-align: middle; border: 0; box-sizing: border-box;"
                     alt="wedshoot pic">
                 </a>
             </div>
@@ -255,15 +291,15 @@
         <div class="row">
             <div class="col-md-12 text-center">
                 <h3>Noi...</h3> <!--TODO FIX URL INSTAGRAM-->
-                <p>Aiutaci a ricordare il momento, usa il tag
-                    <a href="https://instagram.com/explore/tags/#marta&andreasposi/" style="color: #5151fb" target="_blank">#marta&andreasposi</a>
+                <p>Aiutaci a ricordare il momento su Instagram, usa il tag
+                    <a href="https://instagram.com/explore/tags/#ezio&elisasposi/" style="color: #5151fb" target="_blank">#ezio&elisasposi</a>
                 </p>
             </div>
         </div>
         <div class="row section-border wp7">
             <div class="col-md-4 col-md-offset-4">
-                <a href="https://www.instagram.com/marta.zizzari/"><img src="img/instagram-pic-fixed.jpg"
-                    alt="instagram pic"></a>
+                <img src="img/FotoEzioElisa/hands.jpg"
+                    alt="instagram pic">
             </div>
         </div>
     </div>
@@ -273,180 +309,182 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12 text-center">
-                <h3 class="header">Qualche nostra (rara) foto</h3>
+                <h3 class="header">Images</h3>
             </div>
         </div>
         <div class="row">
             <div class="col-md-2">
-                <a class="fancybox" rel="group" href="img/eng_pics/6.jpeg">
+                <a class="fancybox" rel="group" href="img/FotoEzioElisa/443wr.jpg">
                     <div class="img-wrap">
                         <div class="overlay">
                             <i class="fa fa-search"></i>
                         </div>
-                        <img src="img/eng_pics/6.jpeg" alt=""/>
+                        <img src="img/FotoEzioElisa/443wr.jpg" alt=""/>
                     </div>
                 </a>
             </div>
             <div class="col-md-2">
-                <a class="fancybox" rel="group" href="img/eng_pics/3.jpeg">
+                <a class="fancybox" rel="group" href="img/FotoEzioElisa/20210502_140113.jpg">
                     <div class="img-wrap">
                         <div class="overlay">
                             <i class="fa fa-search"></i>
                         </div>
-                        <img src="img/eng_pics/3.jpeg" alt=""/>
+                        <img src="img/FotoEzioElisa/20210502_140113.jpg" alt=""/>
                     </div>
                 </a>
             </div>
             <div class="col-md-2">
-                <a class="fancybox" rel="group" href="img/5.jpeg">
+                <a class="fancybox" rel="group" href="img/FotoEzioElisa/20210603_115717.jpg">
                     <div class="img-wrap">
                         <div class="overlay">
                             <i class="fa fa-search"></i>
                         </div>
-                        <img src="img/5.jpeg" alt=""/>
+                        <img src="img/FotoEzioElisa/20210603_115717.jpg" alt=""/>
                     </div>
                 </a>
             </div>
             <div class="col-md-2">
-                <a class="fancybox" rel="group" href="img/eng_pics/17.jpeg">
+                <a class="fancybox" rel="group" href="img/FotoEzioElisa/20210603_195741.jpg">
                     <div class="img-wrap">
                         <div class="overlay">
                             <i class="fa fa-search"></i>
                         </div>
-                        <img src="img/eng_pics/17.jpeg" alt=""/>
+                        <img src="img/FotoEzioElisa/20210603_195741.jpg" alt=""/>
                     </div>
                 </a>
             </div>
             <div class="col-md-2">
-                <a class="fancybox" rel="group" href="img/eng_pics/5.jpeg">
+                <a class="fancybox" rel="group" href="img/FotoEzioElisa/20210822_121330.jpg">
                     <div class="img-wrap">
                         <div class="overlay">
                             <i class="fa fa-search"></i>
                         </div>
-                        <img src="img/eng_pics/5.jpeg" alt=""/>
+                        <img src="img/FotoEzioElisa/20210822_121330.jpg" alt=""/>
                     </div>
                 </a>
             </div>
             <div class="col-md-2">
-                <a class="fancybox" rel="group" href="img/eng_pics/1.jpeg">
+                <a class="fancybox" rel="group" href="img/FotoEzioElisa/20221109_204730.jpg">
                     <div class="img-wrap">
                         <div class="overlay">
                             <i class="fa fa-search"></i>
                         </div>
-                        <img src="img/eng_pics/1.jpeg" alt=""/>
+                        <img src="img/FotoEzioElisa/20221109_204730.jpg" alt=""/>
                     </div>
                 </a>
             </div>
             <div class="col-md-2">
-                <a class="fancybox" rel="group" href="img/eng_pics/11.jpeg">
+                <a class="fancybox" rel="group" href="img/FotoEzioElisa/20220902_175501.jpg">
                     <div class="img-wrap">
                         <div class="overlay">
                             <i class="fa fa-search"></i>
                         </div>
-                        <img src="img/eng_pics/11.jpeg" alt=""/>
+                        <img src="img/FotoEzioElisa/20220902_175501.jpg" alt=""/>
                     </div>
                 </a>
             </div>
             <div class="col-md-2">
-                <a class="fancybox" rel="group" href="img/eng_pics/8.jpeg">
+                <a class="fancybox" rel="group" href="img/FotoEzioElisa/20210911_113445.jpg">
                     <div class="img-wrap">
                         <div class="overlay">
                             <i class="fa fa-search"></i>
                         </div>
-                        <img src="img/eng_pics/8.jpeg" alt=""/>
+                        <img src="img/FotoEzioElisa/20210911_113445.jpg" alt=""/>
                     </div>
                 </a>
             </div>
             <div class="col-md-2">
-                <a class="fancybox" rel="group" href="img/eng_pics/9.jpeg">
+                <a class="fancybox" rel="group" href="img/FotoEzioElisa/20210825_124034.jpg">
                     <div class="img-wrap">
                         <div class="overlay">
                             <i class="fa fa-search"></i>
                         </div>
-                        <img src="img/eng_pics/9.jpeg" alt=""/>
+                        <img src="img/FotoEzioElisa/20210825_124034.jpg" alt=""/>
                     </div>
                 </a>
             </div>
             <div class="col-md-2">
-                <a class="fancybox" rel="group" href="img/eng_pics/7.jpeg">
+                <a class="fancybox" rel="group" href="img/FotoEzioElisa/20210828_101915.jpg">
                     <div class="img-wrap">
                         <div class="overlay">
                             <i class="fa fa-search"></i>
                         </div>
-                        <img src="img/eng_pics/7.jpeg" alt=""/>
+                        <img src="img/FotoEzioElisa/20210828_101915.jpg" alt=""/>
                     </div>
                 </a>
             </div>
             <div class="col-md-2">
-                <a class="fancybox" rel="group" href="img/eng_pics/12.jpeg">
+                <a class="fancybox" rel="group" href="img/FotoEzioElisa/20210604_120828.jpg">
                     <div class="img-wrap">
                         <div class="overlay">
                             <i class="fa fa-search"></i>
                         </div>
-                        <img src="img/eng_pics/12.jpeg" alt=""/>
+                        <img src="img/FotoEzioElisa/20210604_120828.jpg" alt=""/>
                     </div>
                 </a>
             </div>
             <div class="col-md-2">
-                <a class="fancybox" rel="group" href="img/eng_pics/13.jpeg">
+                <a class="fancybox" rel="group" href="img/FotoEzioElisa/20210708_212505.jpg">
                     <div class="img-wrap">
                         <div class="overlay">
                             <i class="fa fa-search"></i>
                         </div>
-                        <img src="img/eng_pics/13.jpeg" alt=""/>
+                        <img src="img/FotoEzioElisa/20210708_212505.jpg" alt=""/>
                     </div>
                 </a>
             </div>
             <div class="col-md-2">
-                <a class="fancybox" rel="group" href="img/eng_pics/20.jpg">
+                <a class="fancybox" rel="group" href="img/FotoEzioElisa/wedding2.jpeg">
                     <div class="img-wrap">
                         <div class="overlay">
                             <i class="fa fa-search"></i>
                         </div>
-                        <img src="img/eng_pics/20.jpg" alt=""/>
+                        <img src="img/FotoEzioElisa/wedding2.jpeg" alt=""/>
                     </div>
                 </a>
             </div>
             <div class="col-md-2">
-                <a class="fancybox" rel="group" href="img/eng_pics/14.jpeg">
+                <a class="fancybox" rel="group" href="img/FotoEzioElisa/img2.jpeg">
                     <div class="img-wrap">
                         <div class="overlay">
                             <i class="fa fa-search"></i>
                         </div>
-                        <img src="img/eng_pics/14.jpeg" alt=""/>
+                        <img src="img/FotoEzioElisa/img2.jpeg" alt=""/>
                     </div>
                 </a>
             </div>
             <div class="col-md-2">
-                <a class="fancybox" rel="group" href="img/eng_pics/21.jpg">
+                <a class="fancybox" rel="group" href="img/FotoEzioElisa/wedding3.jpeg">
                     <div class="img-wrap">
                         <div class="overlay">
                             <i class="fa fa-search"></i>
                         </div>
-                        <img src="img/eng_pics/21.jpg" alt=""/>
+                        <img src="img/FotoEzioElisa/wedding3.jpeg" alt=""/>
                     </div>
                 </a>
             </div>
             <div class="col-md-2">
-                <a class="fancybox" rel="group" href="img/eng_pics/16.jpeg">
+                <a class="fancybox" rel="group" href="img/FotoEzioElisa/wedding.jpeg">
                     <div class="img-wrap">
                         <div class="overlay">
                             <i class="fa fa-search"></i>
                         </div>
-                        <img src="img/eng_pics/16.jpeg" alt=""/>
+                        <img src="img/FotoEzioElisa/wedding.jpeg" alt=""/>
                     </div>
                 </a>
             </div>
             <div class="col-md-2">
-                <a class="fancybox" rel="group" href="img/eng_pics/4.jpg">
+                <a class="fancybox" rel="group" href="img/FotoEzioElisa/sea.jpeg">
                     <div class="img-wrap">
                         <div class="overlay">
                             <i class="fa fa-search"></i>
                         </div>
-                        <img src="img/eng_pics/4.jpg" alt=""/>
+                        <img src="img/FotoEzioElisa/sea.jpeg" alt=""/>
                     </div>
                 </a>
             </div>
+
+
         </div>
     </div>
     <div class="container">
@@ -466,20 +504,19 @@
 
 <section id="video-bg" class="hidden-sm hidden-xs">
     <div id="bgndVideo" class="player"
-         data-property="{videoURL:'https://www.youtube.com/watch?v=oKVwH6TbtUQ',containment:'#video-bg',autoPlay:true, mute:true, showControls:false, startAt:80, stopAt:259, opacity:1}">
+         data-property="{videoURL:'https://www.youtube.com/watch?v=MfeTGpL_Ff8',containment:'#video-bg',autoPlay:true, mute:true, showControls:false, startAt:80, stopAt:259, opacity:1}">
     </div>
     <div id="video-content">
-        <h5>Salento</h5>
-        <p>City of joy</p>
+        <h5>Location</h5>
+        <p>Corte del Mulino</p>
     </div>
 </section>
 
 <section id="map" class="section-padding">
     <div class="text-center">
-        <h3>Come arrivo?</h3>
-        <p>Indicazioni in basso</p>
+        <h3>Contatti?</h3>
     </div>
-    <div id="map-canvas" style="background-image: linear-gradient( #FFFFFF 0%, #0ABAB5 120%)"></div>
+    <div id="map-canvas" style="background-image: linear-gradient( #FFFFFF 0%, #ecb1a8 120%)"></div>
     <div id="map-content-wrapper"  class="container pointer-events-none">
         <div class="row">
             <div class="col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6">
@@ -488,33 +525,50 @@
                         <i class="fa fa-info-circle"></i>&nbsp;&nbsp; Show info
                     </div>
                 </div>
-                <div id="map-content" style="background: #0000;opacity: 1;" class="pointer-events-auto">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <h5>Villa Vergine</h5>
-                            <p>
-                                Strada Provinciale Collepasso Noha, 73020 Cutrofiano LE
-                            </p>
-                        </div>
-                        <div class="col-md-6">
-                            <h5>Andrea - Marta</h5>
-                            <i class="fa fa-mobile"></i> <a href="tel://++393425254757"><b>+39 3425254757</b></a><br><br>
-                            <i class="fa fa-mobile"></i> <a href="tel://+393425653425"><b>+39 3425653425</b></a>
+                <div id="map-content" style="background: #0000;opacity: 1; text-align: center;" class="pointer-events-auto">
+                    <div style='padding-top:160px; margin-left:145px'>
+                        <div class="col-md-6" style='margin-left: -150px;'>
+                            <h5>Ezio - Elisa</h5>
+                            <i class="fa fa-mobile"></i> <a href="tel://++393923031186"><b>+39 3923031186</b></a><br><br>
+                            <i class="fa fa-mobile"></i> <a href="tel://+393475075893"><b>+39 3475075893</b></a>
                         </div>
                     </div>
-                    <p> <form action="https://www.google.it/maps/place/Chiesa+Madre+dei+Santi+Pietro+e+Paolo/@40.174259,18.1675856,17z/data=!3m1!4b1!4m5!3m4!1s0x13442240fb0de117:0x1186049006435af3!8m2!3d40.17426!4d18.1697876"
-                        >
-                            <input class="btn btn-accent btn-small" type="submit" class="fa fa-map-marker" value="Portami in chiesa"/>
-                        </form>  
-                    </p>
-                    <div class="row text-center">
-                        <div class="col-md-6">
-                            <form action="https://www.google.it/maps/place/40%C2%B006'56.2%22N+18%C2%B009'55.7%22E/@40.1156131,18.1632824,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d40.1156131!4d18.1654711?"
-                            >
-                                <input class="btn btn-accent btn-small" class="fa fa-map-marker" type="submit" value="Guidami al ristorante"/>
-                            </form>                            
-                        </div>
-                    </div>
+                    <script>
+                        var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?86342';
+                        var s = document.createElement('script');
+                        s.type = 'text/javascript';
+                        s.async = true;
+                        s.src = url;
+                        var options = {
+                      "enabled":true,
+                      "chatButtonSetting":{
+                          "backgroundColor":"#4dc247",
+                          "ctaText":"Elisa",
+                          "borderRadius":"25",
+                          "marginLeft":"0",
+                          "marginBottom":"50",
+                          "marginRight":"20",
+                          "position":"right"
+                      },
+                      "brandSetting":{
+                          "brandName":"Elisa",
+                          "brandSubTitle":"Ciao, scrivimi per qualsiasi info!",
+                          "brandImg":"",
+                          "welcomeText":"Qui puoi comunicare intolleranze o richieste particolari! Grazie",
+                          "messageText":"",
+                          "backgroundColor":"#0a5f54",
+                          "ctaText":"Inizia chat Whatsapp",
+                          "borderRadius":"25",
+                          "autoShow":false,
+                          "phoneNumber":"393475075893"
+                      }
+                    };
+                        s.onload = function() {
+                            CreateWhatsappChatWidget(options);
+                        };
+                        var x = document.getElementsByTagName('script')[0];
+                        x.parentNode.insertBefore(s, x);
+                    </script>
                 </div>
             </div>
         </div>
@@ -543,60 +597,16 @@
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
                 <h3>Che aspetti? <span style='font-size:20px;'>&#128513;</span> </h3>
-                <p>Inserisci le tue informazioni per salvare l'evento sul tuo calendario</p>
-                <form id="rsvp-form" class="rsvp-form"
-                      action=""
-                      method="POST">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6">
-                            <div class="form-input-group">
-                                <i class="fa fa-envelope"></i><input type="Email" name="email" class=""
-                                                                     placeholder="Email"
-                                                                     required>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6">
-                            <div class="form-input-group">
-                                <i class="fa fa-user"></i><input name="name" class=""
-                                                                 placeholder="Nome e Cognome"
-                                                                 required>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6">
-                            <!--
-                            <div class="form-input-group">
-                                <i class="fa fa-users"></i><input type="number" name="extras" class="" min="0"
-                                                                  max="10"
-                                                                  placeholder="Moglie/marito e/o bambini"
-                                                                  required>
-                            </div>
-                            -->
-                        </div>
-                            <div class="col-md-6 col-sm-6">
-                            <div class="form-input-group" style="display: none;">
-                                <i class="fa fa-key"></i><input type="number" value="271117" readonly name="invite_code" id="invite_code"
-                                                                class="" min="0"
-                                                                placeholder="Invite code"
-                                                                required>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12" id="alert-wrapper"></div>
-                    </div>
-                        <p>
-                            <input style="background-color: white;
-                            color: #DFC469;
-                            border-color: #DFC469;
-                            font-weight: 700;
-                            font-size: 20px; width: 100%; padding: 15px 0" class="btn btn-accent btn-small" type="submit" class="fa fa-map-marker" value="Yes, ricordamelo!"/>
-                        </p>
-                    
-
-                </form>
+                <p>Salva l'evento nel tuo calendario e vieni con un sorriso</p>
+                    <a style="background-color: white;
+                    color: #DFC469;
+                    border-color: #DFC469;
+                    font-weight: 700;
+                    font-size: 20px; width: 100%; padding: 15px 0" class="btn btn-accent btn-small"
+                    href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=Mjd2ZDVkaGE3dW10NWU3dnIzMjhrdmkyMDAgaWduYXppby5tYXJjYXRvQG0&amp;tmsrc=ignazio.marcato%40gmail.com" target="_blank" class="button has-tooltip btn-cta" data-tooltip="Add to Calendar" target="_blank" data-aos="zoom-in"> Google Calendar
+                    </a>
+                  </div>
+  
             </div>
         </div>
     </div>
@@ -607,7 +617,7 @@
         <div class="row">
             <div class="col-sm-12 text-center content">
                 <span class="to-top-wrapper"><a href="#top" class="to-top"><i class="fa fa-angle-up"></i></a></span>
-                <p>Fatto con amore da Andrea <span class="fa fa-heart pulse2"></span> per Marta</p>
+                <p>Fatto con amore <span class="fa fa-heart pulse2"></span> per Elisa</p>
             </div>
         </div>
     </div>
